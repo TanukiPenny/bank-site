@@ -1,0 +1,48 @@
+#root {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pfp {
+  width: 100px;
+  border-radius: 25%;
+  padding: 1rem;
+}
+
+.randomGif {
+  width: 600px;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.randomGifBox {
+  background-color: #3e3e3e;
+  border-radius: 15px;
+  padding: 1rem;
+  align-items: center;
+  margin: 1rem;
+}
+
+.infoText {
+  text-align: left;
+}
+
+.basicInfo {
+  display: flex;
+  background-color: #3e3e3e;
+  border-radius: 15px;
+  padding: 1rem;
+  align-items: center;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.secretLink {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 20px;
+  color: #3e3e3e;
+}
