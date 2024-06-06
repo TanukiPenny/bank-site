@@ -17,7 +17,7 @@ function RandomGif() {
     return (
         <>
             <div className="randomGifBox">
-                <img className="randomGif" src={gif} alt={"A pfp I use"}/>
+                <img className="randomGif" src={gif} alt={"A random michiru gif"}/>
             </div>
         </>
     )
