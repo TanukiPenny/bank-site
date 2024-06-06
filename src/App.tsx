@@ -7,8 +7,10 @@ function App() {
 
   return (
     <>
-        <BasicInfo></BasicInfo>
-        <RandomGif></RandomGif>
+        <div >
+            <BasicInfo></BasicInfo>
+            <RandomGif></RandomGif>
+        </div>
         <a className="secretLink" href="https://zip.penny.moe/go/michiru">Click Me!</a>
     </>
   )
