@@ -10,8 +10,7 @@ jobs:
     runs-on: "self-hosted"
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: Pull new changes
         run: git -C /home/bank-site pull
       - name: Stop old container
         run: docker rm $(docker stop $(docker ps -a -q --filter ancestor=bank-site --format="{{.ID}}"))
