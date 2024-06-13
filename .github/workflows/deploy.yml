@@ -13,8 +13,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Stop old container
-        run: sudo docker rm $(docker stop $(docker ps -a -q --filter ancestor=bank-site --format="{{.ID}}"))
+        run: docker rm $(docker stop $(docker ps -a -q --filter ancestor=bank-site --format="{{.ID}}"))
+      - name: Delete old image
+        run: docker rmi bank-site
       - name: Build new image
-        run: sudo docker build /home/bank-site -t "bank-site"
-      - name: Run new image
-        run: sudo docker run -d -p 8081:8081 bank-site
+        run: docker build /home/bank-site -t "bank-site"
+      - name: Run new container
+        run: docker run -d -p 8081:8081 bank-site
