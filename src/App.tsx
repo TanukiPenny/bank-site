@@ -1,13 +1,15 @@
 import './App.css'
 import BasicInfo from "./components/basicInfo.tsx";
 import RandomGif from "./components/randomGif.tsx";
+import Name from "./components/name.tsx";
 
 function App() {
 
 
   return (
     <>
-        <div >
+        <div className="container">
+            <Name></Name>
             <BasicInfo></BasicInfo>
             <RandomGif></RandomGif>
         </div>
