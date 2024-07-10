@@ -8,7 +8,6 @@ function Name() {
             <div className="nameBox">
                 <h2 className="name">Penny Bibb</h2>
             </div>
-
         </>
     )
 }

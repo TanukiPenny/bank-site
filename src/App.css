@@ -80,3 +80,41 @@
   font-size: 17px;
   color: #072675;
 }
+
+.musicBox {
+  margin: .5rem;
+  padding: 1rem;
+  background-color: rgba(8, 39, 104, 0.7);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.musicInfo {
+  display: flex;
+  align-items: center;
+}
+
+.musicImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  margin-right: 1rem;
+}
+
+.musicTitle {
+  margin: 0 0 1rem;
+}
+
+.musicTextInfo {
+  margin: 0
+}
+
+.musicText {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
