@@ -1,11 +1,8 @@
 import "../globals.css";
 import {MusicProps} from "@/app/props/musicProps";
-import getMusicProps from "@/app/components/getMusicProps";
 
 
-async function Music() {
-    let props: MusicProps;
-    await getMusicProps().then().then((musicProps: MusicProps) => {props = musicProps;});
+function Music(props: MusicProps) {
         return (
         <>
             <div className="musicBox">
