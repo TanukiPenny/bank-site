@@ -17,8 +17,6 @@ await Axios.get(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&
     const parser = new XMLParser();
     const track = parser.parse(res.data).lfm.recenttracks.track[0];
 
-    console.log(track);
-
     musicAlbum = track.album;
     musicArtist = track.artist;
     musicName = track.name;
