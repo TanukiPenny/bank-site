@@ -8,6 +8,8 @@ RUN npm install
 
 COPY . .
 
+RUN PORT=8081
+
 RUN npm run build
 
 EXPOSE 8081
