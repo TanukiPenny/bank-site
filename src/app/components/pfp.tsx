@@ -1,4 +1,4 @@
-import '../App.css'
+import "../globals.css";
 
 function Pfp() {
     const images = [

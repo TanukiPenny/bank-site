@@ -1,6 +1,6 @@
-import '../App.css'
-import Pfp from "./pfp.tsx";
-import {ageFromDateOfBirthday} from "./utils.tsx";
+import "../globals.css";
+import Pfp from "./pfp";
+import {ageFromDateOfBirthday} from "./utils";
 
 function BasicInfo() {
 
