@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build -p 8081",
-    "start": "next start -p 8081",
+    "build": "next build -- -p 8081",
+    "start": "next start -- -p 8081",
     "lint": "next lint"
   },
   "dependencies": {
