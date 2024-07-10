@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-RUN yarn build
+RUN next build
 
 EXPOSE 8081
 
