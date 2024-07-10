@@ -1,6 +1,5 @@
 import "../globals.css";
 import {MusicProps} from "@/app/props/musicProps";
-import Image from "next/image";
 
 
 function Music(props: MusicProps) {
@@ -9,7 +8,7 @@ function Music(props: MusicProps) {
             <div className="musicBox">
                 <h3 className="musicTitle">Currently Playing</h3>
                 <div className="musicInfo">
-                    <Image className="musicImg" src={props.image} alt="awa" />
+                    <img className="musicImg" src={props.image} alt="awa" />
                     <div className="musicText">
                         <h5 className="musicTextInfo">Name: {props.name}</h5>
                         <h5 className="musicTextInfo">Artist: {props.artist}</h5>

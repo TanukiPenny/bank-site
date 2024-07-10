@@ -1,5 +1,4 @@
 import "../globals.css";
-import Image from "next/image";
 
 function Pfp() {
     const images = [
@@ -12,7 +11,7 @@ function Pfp() {
 
     return (
         <>
-            <Image className="pfp" src={pfp} alt={"A pfp I use"}/>
+            <img className="pfp" src={pfp} alt={"A pfp I use"}/>
         </>
     )
 }

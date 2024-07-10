@@ -1,5 +1,4 @@
 import "../globals.css";
-import Image from "next/image";
 
 function RandomGif() {
     const images = [
@@ -19,7 +18,7 @@ function RandomGif() {
         <>
             <div className="randomGifBox">
                 <h3 className="randomGifTitle">Random Michiru  Gif</h3>
-                <Image className="randomGif" src={gif} alt={"A random michiru gif"}/>
+                <img className="randomGif" src={gif} alt={"A random michiru gif"}/>
             </div>
         </>
     )
