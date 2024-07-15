@@ -56,7 +56,7 @@ const createIndexTemplate = async () => {
             <link rel="stylesheet" href="/styles.css">
             <meta content="https://penny.moe/" property="og:url"/>
             <meta content="https://zip.penny.moe/u/bna-michiru.gif" property="og:image"/>
-            <link rel="icon" href="http://zip.penny.moe/u/favicon.png"/>
+            <link rel="icon" href="https://zip.penny.moe/u/favicon.png"/>
             <link rel="preconnect" href="https://fonts.googleapis.com"/>
             <link rel="preconnect" href="https://fonts.gstatic.com"/>
             <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet"/>
