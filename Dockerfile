@@ -8,10 +8,6 @@ RUN npm install
 
 COPY . .
 
-RUN PORT=8081
-
-RUN npm run build
-
 EXPOSE 8081
 
-CMD [ "npm", "run", "start" ]
+CMD [ "node", "--env-file=.env", "app.js" ]
